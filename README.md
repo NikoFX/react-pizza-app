@@ -27,12 +27,20 @@ Runs the app in the development mode.\
   
   ➜  press h to show help
 
-  Shortcuts
+  Shortcuts:
+  
   press r to restart the server
+  
   press u to show server url
+  
   press o to open in browser
+  
   press c to clear console
+  
   press q to quit
+  
   press o to open in browser
+  
   press c to clear console
+  
   press q to quit
