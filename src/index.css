@@ -1,0 +1,149 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 50px;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.search{
+  margin-bottom: 40px;
+  max-width: 275px;
+  box-sizing: border-box;
+}
+
+.search__input{
+  font-size: 1.2em;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: silver;
+}
+
+.main {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 30px;
+}
+
+.checkout {
+  width: 30%;
+}
+
+.card {
+  height: 350px;
+  box-shadow: -3px 3px 15px 3px rgb(71, 40, 10);
+  transition-duration: .5s;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px 5px rgb(131, 65, 0)
+}
+
+.card__img {
+  width: 100%;
+  height: 50%;
+  background-repeat: repeat;
+}
+
+.card__info {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-primary {
+  height: 40px;
+  background-color: rgb(102, 77, 15);
+  padding: 3px 20px 3px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition-duration: .3s;
+}
+
+.btn-primary:hover {
+  background-color: rgb(153, 116, 22);
+}
+
+.checkout {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 50px;
+  padding-top: 65px;
+}
+.checkout__header{
+  margin-top:10px;
+  text-align: end;
+}
+.checkout-list {
+  height: 500px;
+  overflow-y:auto;
+}
+
+.checkout-card {
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  box-shadow: -3px 3px 15px 3px rgb(38, 38, 38);
+  overflow: hidden;
+}
+
+.checkout-card__img {
+  border-radius: 3px;
+  width: 120px;
+}
+
+.checkout-card__info {
+  padding: 10px;
+}
+
+.checkout-footer{
+  margin-top:50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
