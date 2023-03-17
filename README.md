@@ -1,9 +1,9 @@
-  <div style="display:flex;justify-content:center;align-items:center; column-gap: 30px;">
+  <div style="margin-inline:auto;display:flex;justify-content:center;align-items:center; column-gap: 30px;">
         <img width="120" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="React logo">
         <img width="80" src="https://vitejs.dev/logo.svg" alt="Vite logo">
         <img width="80" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React logo">
         <img width="150" src="https://repository-images.githubusercontent.com/180328715/fca49300-e7f1-11ea-9f51-cfd949b31560" alt="React logo">
-    </div>
+  </div>
 <br/>
 <p align="center">
   <a href="https://npmjs.com/package/vite"><img src="https://img.shields.io/npm/v/vite.svg" alt="npm package"></a>
