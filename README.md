@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
+  <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer" style="display:flex;justify-content:center;align-items:center;">
     <img width="80" src="https://vitejs.dev/logo.svg" alt="Vite logo">
     <img width="80" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React logo">
     <img width="100" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="React logo">
