@@ -1,4 +1,4 @@
-  <div style="margin-inline:auto;display:flex;justify-content:center;align-items:center; column-gap: 30px;">
+  <div style="max-width:800px;margin-inline:auto;display:flex;justify-content:center;align-items:center; column-gap: 30px;">
         <img width="120" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="React logo">
         <img width="80" src="https://vitejs.dev/logo.svg" alt="Vite logo">
         <img width="80" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React logo">
