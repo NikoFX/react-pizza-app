@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
     <img width="80" src="https://vitejs.dev/logo.svg" alt="Vite logo">
-    <img width="80" src="https://www.pngfind.com/pngs/m/685-6854970_react-logo-png-png-download-logo-png-reactjs.png" alt="React logo">
+    <img width="80" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React logo">
     
     
   </a>
