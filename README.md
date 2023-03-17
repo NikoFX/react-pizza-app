@@ -22,7 +22,9 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 
   ➜  Local:   http://localhost:5173/
+  
   ➜  Network: use --host to expose
+  
   ➜  press h to show help
 
   Shortcuts
