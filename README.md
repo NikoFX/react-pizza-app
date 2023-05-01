@@ -12,7 +12,7 @@ A short app for searching and calculating popular pizzas.
 ## Development setup
 
 ```sh
-npm i
+npm install
 npm run dev
 ```
 Local:   http://localhost:5173/
