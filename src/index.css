@@ -9,12 +9,32 @@
   -webkit-text-size-adjust: 100%;
 }
 body{
-  background-color: white;
-  color:black;
+  background-color: rgb(48, 48, 48);
+  color:white;
 }
 * {
   box-sizing: border-box;
 }
+
+*::-webkit-scrollbar {
+  width: 2px;
+  /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: black;
+  /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(167, 75, 0);
+  /* color of the scroll thumb */
+  border-radius: 0;
+  /* roundness of the scroll thumb */
+  border: 0 solid rgb(167, 75, 0);
+  /* creates padding around scroll thumb */
+}
+
 p{
   margin: 0;
   padding: 0;
@@ -61,24 +81,29 @@ li {
 
 .card {
   height: 350px;
-  box-shadow: -3px 3px 15px 3px rgb(71, 40, 10);
-  transition-duration: .5s;
+  box-shadow: -1px 3px 5px 5px rgb(32, 32, 32);
+  transition-duration: .2s;
   border-radius: 5px;
   overflow: hidden;
 }
 
 .card:hover {
-  box-shadow: 0 0 20px 5px rgb(131, 65, 0)
+  transform: scale(1.03);
+  box-shadow: -5px 5px 20px 4px rgb(0, 0, 0)
 }
 
 .card__img {
   width: 100%;
-  height: 50%;
+  height: 70%;
   background-repeat: repeat;
 }
 
+.card__name{
+  margin: 0;
+}
+
 .card__info {
-  height: 50%;
+  height: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -92,6 +117,7 @@ li {
 }
 
 .btn-primary {
+  color: white;
   height: 40px;
   background-color: rgb(102, 77, 15);
   padding: 3px 20px 3px 20px;
