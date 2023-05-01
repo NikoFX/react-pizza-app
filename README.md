@@ -30,13 +30,9 @@ Local:   http://localhost:5173/
 
  Nijat Gurbanov
 
-- Github: [@NikoFX](https://github.com/NikoFX)
-- Twitter: [@NikoFX](https://twitter.com/)
-- Linkedin: [Nijat Gurbanov](https://www.linkedin.com/in/nijatgurbanov-dev/)
-
-
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
+- Github: [NikoFX](https://github.com/NikoFX)
+- Twitter: [Nijat Gurbanov](https://twitter.com/)
+- Linkedin: [Nijat Gurbanov](https://www.linkedin.com/in/nijat-gurbanov-dev/)
 
 ## Contributing
 
