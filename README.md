@@ -13,10 +13,6 @@ Pizza App
 ![Zustand](https://img.shields.io/badge/Zustand-%23323330.svg?style=for-the-badge&logoColor=%BBDEAD)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 A short app for searching and calculating popular pizzas.
 
 ![](header.png)
